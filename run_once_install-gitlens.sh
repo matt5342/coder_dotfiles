@@ -1,5 +1,5 @@
 #!/bin/bash
 
 if command -v code &>/dev/null; then
-  code --install-extension eamodio.gitlens
+  code --extensions-dir "$HOME/.vscode-server/extensions" --install-extension eamodio.gitlens
 fi
